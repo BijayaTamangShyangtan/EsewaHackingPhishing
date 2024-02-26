@@ -1,6 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylssheet" href="style.css">
+  <script>
+    function togglePasswordVisibility() {
+      var passwordInput = document.getElementById("password");
+      var passwordToggle = document.getElementById("password-toggle");
+
+      if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+        passwordToggle.src = "view.svg  ";
+      } else {
+        passwordInput.type = "password";
+        passwordToggle.src = "unview.svg";
+      }
+    }
+  </script>
+  <style>
+/* Your existing styles here */
+    .password-container {
+      position: relative;
+    }
+
+    /* Style for the password visibility toggle button */
+    .password-toggle {
+      position: absolute;
+      left:240px;
+      top: 30%;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+  </style>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>eSewa Merchant</title>
@@ -94,9 +124,12 @@
   <input type="text" id="username" name="username" placeholder="Email ID or Mobile Number">
 </div>
 <div class="form-group">
-  <label for="password" class="required">password </label>
-  <input type="password" id="password" name="password" placeholder="password">
-</div>
+    <label for="password" class="required">Password </label>
+    <div class="password-container">
+      <input type="password" id="password" name="password" placeholder="Password">
+      <img src="unview.svg" id="password-toggle" class="password-toggle" onclick="togglePasswordVisibility()" alt="Toggle Password Visibility" height="80" width="80">
+    </div>
+  </div>
 
     <!-- Checkbox and Forgot Password Button -->
 <div class="checkbox-container">
